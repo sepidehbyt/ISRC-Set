@@ -3,7 +3,6 @@ MQTT Handler
 """
 
 import paho.mqtt.client as mqtt
-from config import broker_address, broker_port
 
 
 def on_message(client, userdata, message):
