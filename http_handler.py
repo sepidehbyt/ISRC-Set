@@ -31,7 +31,8 @@ def is_valid(my_json: json):
 def set_setting():
     """
     :returns 400, if request isn't in right format, returns 'Bad Request'
-    :returns 429, if requests are more than max, returns 'Too Many Requests Error'
+    :returns 429, if requests are more than max,
+        returns 'Too Many Requests Error'
     """
 
     if not is_valid(request.json):
