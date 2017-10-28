@@ -1,6 +1,7 @@
 """
 Global variables
 """
+import os
 
 http_address = '0.0.0.0'
 http_port = 5000
